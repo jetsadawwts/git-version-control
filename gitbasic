@@ -1,0 +1,13 @@
+Version control
+git init = สร้าง Git repository จะได้ Director พร้อมระบบ ของ Git มาใน Director
+
+git config --global = เพื่อให้รูว่าใครเป็นคนสร้าง Commit เเต่ละตัว Git ให้ผู้ใช้งานตั้งค่า Email เเละ Name ผ่านคำสั่ง
+    -git config --global user.email    
+    -git config --global user.Name
+
+git add = เป็นคำสั่งที่เปลีั่ยนข้อมูลใน waiting Director ไปที่ Stating area
+
+
+Command line
+code <ชื่อไฟล์> = สร้างไฟล์
+
