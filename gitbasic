@@ -23,14 +23,28 @@ git diff = เช็ดการเปลี่ยนเเปลงของไ
     Staged file -> git diff --staged <ตามด้วยชื่อไฟล์> (ถ้า git add เเล้ว)
 
 git stash = นำไฟล์ที่ไม่ได้อยุ่ใน Git repository ไปเก็บไว้ในที่เก็บชั่วคราว    
-    Track file -> git stash (สำหรับไฟล์ที่ Track)
-    Untracked files -> git stash --include --Untracked (สำหรับไฟล์ที่ยังไม่ Track)
+    Track file -> git stash (สำหรับไฟล์ที่ git add)
+    Untracked files -> git stash --include --Untracked (สำหรับไฟล์ที่ยังไม่ git add)
     lgnone file -> git stash --all (Track ทุกไฟล์ รวมถึง git init)
 
-    
+
     save staged เเบบกำหนดชื่อ -> git stash save "message"
     เเสดงรายการ staged -> git staged list
-    ดึง stash กลับมา -> git stash pop
+    ดึง stash กลับมา -> 
+        git stash pop <ชื่อไฟล์ stash> (ลบ stash list ออก)
+        git stash -p pop <ชื่อไฟล์ stash> (ดูเเบบละเอียด)
+        git stash apply <ชื่อไฟล์ stash> (ไม่ลบ stash list ออก)
+        git stash -p pop <ชื่อไฟล์ stash> (ดูเเบบละเอียด)
+    clear list stash -> git stash clear    
+
+git tag = เป็นเหมือน label ที่ใช้ชี้ไปที่ Commit ใดๆ ใน Git มักใช้กับการกำหนด Version
+    list -> git tag
+    Lightweight -> git tag "message" "commit code"    
+    Annotation -> git tag --annotate "version" --message "message"
+
+git show = ใช้สำหรับเเสดงรายละเอียด Commit ที่โดน tag
+    - git show "version"    
+   
 
 Command line
 code <ชื่อไฟล์> = สร้างไฟล์
