@@ -56,6 +56,11 @@ git checkout = เป็นคำสั่งที่ถูกใช้บ่�
     - git restore <filename> -> worktree
     - git restore --staged <filename> -> staged
     - git restore --source <Spacific HEAD or commit> <fileName>
+
+ git reset = ใช้สำหรับยกเลิกข้อมูลในระบบที่อยู่ใน staging area เเล้ว (เคยมีการ Add เเล้ว)
+    - git reset --mixed <File Name> = git restore --staged <filename>
+    - git reset --soft <Commit code> -> Reset ไปยัง Head โดยไม่เเก้ Working Directory ด้วย   
+    - git reset --hard <Commit code> -> Reset ไปยัง Head โดยเเก้ Working Directory ด้วย   
        
    
 
