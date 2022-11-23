@@ -44,6 +44,12 @@ git tag = เป็นเหมือน label ที่ใช้ชี้ไป
 
 git show = ใช้สำหรับเเสดงรายละเอียด Commit ที่โดน tag
     - git show "version"    
+
+git remove = ใช้สำหรับลบไฟล์ในระบบ
+    - git rm <ตามด้วยชื่อไฟล์>  
+
+git checkout = เป็นคำสั่งที่ถูกใช้บ่อยเนื่องจากสามารถใช้เปลี่่ยน Head เพื่อตรวจสอบ Reverion ได้เเบบไม่มีการเปลี่ยน History ของ Git 
+    - git checkout "commit code"
    
 
 Command line
