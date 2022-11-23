@@ -50,6 +50,13 @@ git remove = ใช้สำหรับลบไฟล์ในระบบ
 
 git checkout = เป็นคำสั่งที่ถูกใช้บ่อยเนื่องจากสามารถใช้เปลี่่ยน Head เพื่อตรวจสอบ Reverion ได้เเบบไม่มีการเปลี่ยน History ของ Git 
     - git checkout "commit code"
+    - git checkout "verion tag"
+
+ git restore = ใช้สำหรับย้อนกลับข้อมูลใน git ส่วนที่ยังไม่ได้ Commit
+    - git restore <filename> -> worktree
+    - git restore --staged <filename> -> staged
+    - git restore --source <Spacific HEAD or commit> <fileName>
+       
    
 
 Command line
