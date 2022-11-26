@@ -1,4 +1,4 @@
 #read me for Git
 ## Build with <3
+# Promo code: SALE50 | Free Shipping 
 
-# Promo code: SALE50
