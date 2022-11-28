@@ -1,9 +1,5 @@
-#read me for Git
-## Build with <3
-<<<<<<< HEAD
+# read me for Git
+
+# Build with <3
 # Promo code: SALE50 | Free Shipping 
 
-=======
-
-# Free Shipping 
->>>>>>> e306f87 (Add free shipping)
